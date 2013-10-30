@@ -23,7 +23,8 @@ Con el comando anterior también se creará el fichero Gemfile.lock necesario pa
 
 ###Para usar:
 
--Falta rellenar
+-Usar un navegador web y copiar en la barra de dirección: 
+		http://pacific-wildwood-5704.herokuapp.com/
 
 --------------------------------------------------
 
