@@ -1,0 +1,57 @@
+!!!
+%html{:lang => "en"}
+	%head
+		%meta{:charset => "utf-8"}/
+		%title Rock, Paper, Scissors
+		%link{:href => "public/css/bootstrap.css", :rel => "stylesheet"}/
+		%link{:href => "public/css/style.css", :rel => "stylesheet"}/
+		:css
+			body {
+				padding-top: 60px;
+				background-color: #B4FBFA;
+			}
+		%link{:href => "public/css/bootstrap-responsive.css", :rel => "stylesheet"}/
+	%body
+		.navbar.navbar-fixed-top.navbar-inverse
+			.navbar-inner
+				.container 
+					.titlebar
+						%a.brand{:href => "/"} 
+							%b Rock, Paper, Scissors
+		.container
+			%center
+				%h1 Rock, Paper, Scissors
+				%h2 Choose a throw:
+				.col-sm-4.md-4
+					%a(href="/?choice=rock" class="thumbail") 
+						%img(src="/public/img/rock.jpg" alt="Rock" height="140" width="180px" style="display: block")
+				.col-sm-4.md-4
+					%a(href="/?choice=paper" class="thumbail")
+						%img(src="/public/img/paper.jpg" alt="Paper" height="140" width="180px" style="display: block")
+				.col-sm-4.md-4
+					%a(href="/?choice=scissors" class="thumbail")
+						%img(src="/public/img/scissors.jpg" alt="Scissors" height="140" width="180px" style="display: block")
+				.textores		
+					%center
+						%p=answer
+						%br
+						.textoresult
+							.col-sm-3.md-3
+								Play:
+								%p=play
+							.col-sm-3.md-3
+								Won:
+								%p=win
+							.col-sm-3.md-3
+								Lost:
+								%p=lose
+							.col-sm-3.md-3
+								Tied:
+								%p=tie
+			.footer
+				.containerfoot
+					.textofoot
+						%div(align="right")
+							%a.brand{:href => "https://github.com/alu0100512700/SYTW-4"}
+								%u Github Repository
+		%script{:src => "public/js/bootstrap.js"}
