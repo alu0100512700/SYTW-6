@@ -17,15 +17,14 @@ Con el comando anterior también se creará el fichero Gemfile.lock necesario pa
 
 ###Creación de archivos necesarios:
 
--Procfile
--Gemfile.lock (se crea con el comando del anterior punto)
--Modificación del config.ru
+- Procfile
+- Gemfile.lock (se crea con el comando del anterior punto)
+- Modificación del config.ru
 
 ###Para usar:
 
 -Usar un navegador web y copiar en la barra de dirección:
-
-		http://pacific-wildwood-5704.herokuapp.com/
+ http://pacific-wildwood-5704.herokuapp.com/
 
 --------------------------------------------------
 
