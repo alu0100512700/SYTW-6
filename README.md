@@ -3,7 +3,7 @@
 *Práctica 6: Despliegue de RockPaperScissors en Heroku*
 ---------------------------------------------
 
-####Recomendable leer la sección "Para usar" situado más abajo antes de iniciar
+####Ir directamente a sección "Para usar" y leer.
 
 ###Descripción:
 
